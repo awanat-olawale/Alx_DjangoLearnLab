@@ -20,8 +20,7 @@ LibraryProject/
 - The **inner folder** is the Django settings/config package
 
 ## Steps Taken
-
-**1. Navigated into Introduction_to_Django folder and used pipenv to manage environment:**
+1. **Navigated into Introduction_to_Django folder and used pipenv to manage environment:**
 
     ```
     pipenv install django
@@ -29,6 +28,7 @@ LibraryProject/
     ```
     pipenv shell
     ``` 
+    
    `pipenv shell` to launch virtual environment
 
 **2. Created the project using:**
