@@ -22,7 +22,9 @@ LibraryProject/
 ## STEPS TAKEN
 1. Navigated into Introduction_to_Django folder and used pipenv to manage environment:
 
-    ```pipenv install django```
+    ```
+    pipenv install django
+    ```
 
     `pipenv shell` to launch virtual environment
 
