@@ -3,7 +3,18 @@
 This is a test project to test understanding on project creation and files structure in Django
 
 ## PROJECT STRUCTURE
-```LibraryProject\├── manage.py ├── Pipfile ├── Pipfile.lock └──LibraryProject/ ├── __init__.py ├── asgi.py ├── settings.py ├── urls.py └──wsgi.py```
+```
+LibraryProject/
+├── manage.py 
+├── Pipfile 
+├── Pipfile.lock 
+└──LibraryProject/ 
+    ├── __init__.py 
+    ├── asgi.py 
+    ├── settings.py 
+    ├── urls.py 
+    └──wsgi.py
+```
 
 - The **outer folder** is the project root (contains `manage.py`)
 - The **inner folder** is the Django settings/config package
