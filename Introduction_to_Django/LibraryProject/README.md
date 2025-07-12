@@ -28,16 +28,16 @@ LibraryProject/
     ```
     pipenv shell
     ``` 
-    
+
    `pipenv shell` to launch virtual environment
 
-**2. Created the project using:**
+2. **Created the project using:**
 
     ```
     django-admin startproject LibraryProject
     ```
 
-**3. Ran the development server in the LibraryProject folder**
+3. **Ran the development server in the LibraryProject folder**
 
     ```
     cd LibraryProject
@@ -46,7 +46,7 @@ LibraryProject/
     python manage.py runserver
     ```
 
-**4. File structure and roles:**
+4. **File structure and roles:**
     - `manage.py`: Command-line utility for Django tasks
     - `settings.py`: Project settings
     - `urls.py`: Main URL configuration
