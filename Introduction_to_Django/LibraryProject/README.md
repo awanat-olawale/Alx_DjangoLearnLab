@@ -21,14 +21,17 @@ LibraryProject/
 
 ## STEPS TAKEN
 1. Navigated into Introduction_to_Django folder and used pipenv to manage environment:
+
 `pipenv install django`
 
 `pipenv shell` to launch virtual environment
 
 2. Created the project using:
+
 ` django-admin startproject LibraryProject`
 
 3. Ran the development server in the LibraryProject folder
+
 `cd LibraryProject`
 
 `python manage.py runserver`
