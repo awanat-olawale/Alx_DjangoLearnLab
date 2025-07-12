@@ -25,18 +25,26 @@ LibraryProject/
     ```
     pipenv install django
     ```
-
-    `pipenv shell` to launch virtual environment
+    ```
+    pipenv shell
+    ``` 
+    to launch virtual environment
 
 2. Created the project using:
 
-    `django-admin startproject LibraryProject`
+    ```
+    django-admin startproject LibraryProject
+    ```
 
 3. Ran the development server in the LibraryProject folder
 
-    `cd LibraryProject`
+    ```
+    cd LibraryProject
+    ```
 
-    `python manage.py runserver`
+    ```
+    python manage.py runserver
+    ```
 
 4. File structure and roles:
     - `manage.py`: Command-line utility for Django tasks
