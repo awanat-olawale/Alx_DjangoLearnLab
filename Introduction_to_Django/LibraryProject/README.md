@@ -52,4 +52,19 @@ LibraryProject/
     - `urls.py`: Main URL configuration
     - `wsgi.py` and `asgi.py`: Entry points for deployment
 
+5. **Django Admin Configuration for Book Model**
+
+    **Setup Instructions**
+        - Register Book Model in `bookshelf/admin.py` using the `@admin.register(Book)` decorator
+        - Configurations are implemented in the `BookAdmin` class
+        _ Create a superuser acccount with:
+        ```
+        python manage.py createsuperuser
+        ```
+        - Run the development server:
+        ```
+        python manage.py runserver
+        ```
+        - Access the admin interface at `http://localhost:8000/admin/` and login with superuser credentials to     manage Book entries
+
 
