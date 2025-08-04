@@ -3,8 +3,8 @@ from .models import Book
 from .models import Library
 from django.views.generic.detail import DetailView
 from django.contrib.auth.forms import UserCreationForm
-from django.contrib.auth.views import LoginView 
-from django.contrib.auth.views import LogoutView
+from django.contrib.auth.views import Login 
+from django.contrib.auth.views import Logout
 from django.urls import reverse_lazy
 from django.views.generic import CreateView
 
@@ -25,10 +25,10 @@ class RegisterView(CreateView):
     template_name = 'relationship_app/register.html'
     success_url = reverse_lazy('login')
 
-class CustomLoginView(LoginView):
+class CustomLoginView(Login):
     template_name = 'relationship_app/login.html'
 
-class CustomLogoutView(LogoutView):
+class CustomLogoutView(Logout):
     template_name = 'relationship_app/logout.html'
 
 
